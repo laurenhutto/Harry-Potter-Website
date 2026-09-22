@@ -1,0 +1,6453 @@
+{
+  "metadata": {
+    "source": "Wizard World API & Harry Potter Canon Analytics",
+    "api_endpoint": "https://wizard-world-api.herokuapp.com",
+    "generated_at": "2026-09-22 11:54:39",
+    "total_wizards": 23,
+    "total_spells": 18,
+    "total_elixirs": 15,
+    "total_uses_world": 714,
+    "books": [
+      {
+        "id": "b1",
+        "code": "PS",
+        "title": "Philosopher's Stone",
+        "year": 1997,
+        "full": "Book 1: Harry Potter and the Philosopher's Stone"
+      },
+      {
+        "id": "b2",
+        "code": "CoS",
+        "title": "Chamber of Secrets",
+        "year": 1998,
+        "full": "Book 2: Harry Potter and the Chamber of Secrets"
+      },
+      {
+        "id": "b3",
+        "code": "PoA",
+        "title": "Prisoner of Azkaban",
+        "year": 1999,
+        "full": "Book 3: Harry Potter and the Prisoner of Azkaban"
+      },
+      {
+        "id": "b4",
+        "code": "GoF",
+        "title": "Goblet of Fire",
+        "year": 2000,
+        "full": "Book 4: Harry Potter and the Goblet of Fire"
+      },
+      {
+        "id": "b5",
+        "code": "OotP",
+        "title": "Order of the Phoenix",
+        "year": 2003,
+        "full": "Book 5: Harry Potter and the Order of the Phoenix"
+      },
+      {
+        "id": "b6",
+        "code": "HBP",
+        "title": "Half-Blood Prince",
+        "year": 2005,
+        "full": "Book 6: Harry Potter and the Half-Blood Prince"
+      },
+      {
+        "id": "b7",
+        "code": "DH",
+        "title": "Deathly Hallows",
+        "year": 2007,
+        "full": "Book 7: Harry Potter and the Deathly Hallows"
+      }
+    ]
+  },
+  "wizards": [
+    {
+      "name": "Harry Potter",
+      "spells_used": [
+        "Accio",
+        "Alohomora",
+        "Crucio",
+        "Expecto Patronum",
+        "Expelliarmus",
+        "Imperio",
+        "Levicorpus",
+        "Lumos",
+        "Muffliato",
+        "Petrificus Totalus",
+        "Riddikulus",
+        "Sectumsempra",
+        "Stupefy",
+        "Wingardium Leviosa"
+      ],
+      "elixirs_used": [
+        "Doxycide",
+        "Draught of Living Death",
+        "Felix Felicis",
+        "Polyjuice Potion",
+        "Skele-Gro"
+      ],
+      "total_spells": 14,
+      "total_elixirs": 5,
+      "total_magic_count": 533,
+      "book_counts": {
+        "b1": 21,
+        "b2": 31,
+        "b3": 49,
+        "b4": 86,
+        "b5": 90,
+        "b6": 113,
+        "b7": 143
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 143
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 113
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 90
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 86
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 49
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 31
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 21
+        }
+      ],
+      "graph_node_id": "w_0"
+    },
+    {
+      "name": "Hermione Granger",
+      "spells_used": [
+        "Accio",
+        "Alohomora",
+        "Expecto Patronum",
+        "Levicorpus",
+        "Lumos",
+        "Muffliato",
+        "Obliviate",
+        "Petrificus Totalus",
+        "Stupefy",
+        "Wingardium Leviosa"
+      ],
+      "elixirs_used": [
+        "Felix Felicis",
+        "Polyjuice Potion",
+        "Sleekeazy's Hair Potion"
+      ],
+      "total_spells": 10,
+      "total_elixirs": 3,
+      "total_magic_count": 387,
+      "book_counts": {
+        "b1": 18,
+        "b2": 26,
+        "b3": 34,
+        "b4": 60,
+        "b5": 65,
+        "b6": 78,
+        "b7": 106
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 106
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 78
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 65
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 60
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 34
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 26
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 18
+        }
+      ],
+      "graph_node_id": "w_1"
+    },
+    {
+      "name": "Severus Snape",
+      "spells_used": [
+        "Avada Kedavra",
+        "Expecto Patronum",
+        "Expelliarmus",
+        "Levicorpus",
+        "Muffliato",
+        "Sectumsempra",
+        "Stupefy"
+      ],
+      "elixirs_used": [
+        "Draught of Living Death",
+        "Veritaserum",
+        "Wolfsbane Potion"
+      ],
+      "total_spells": 7,
+      "total_elixirs": 3,
+      "total_magic_count": 288,
+      "book_counts": {
+        "b1": 4,
+        "b2": 3,
+        "b3": 32,
+        "b4": 44,
+        "b5": 55,
+        "b6": 69,
+        "b7": 81
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 81
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 69
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 55
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 44
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 32
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 4
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 3
+        }
+      ],
+      "graph_node_id": "w_2"
+    },
+    {
+      "name": "Ron Weasley",
+      "spells_used": [
+        "Accio",
+        "Lumos",
+        "Riddikulus",
+        "Wingardium Leviosa"
+      ],
+      "elixirs_used": [
+        "Dr Ubbly's Oblivious Unction",
+        "Felix Felicis",
+        "Love potion",
+        "Polyjuice Potion"
+      ],
+      "total_spells": 4,
+      "total_elixirs": 4,
+      "total_magic_count": 228,
+      "book_counts": {
+        "b1": 9,
+        "b2": 20,
+        "b3": 24,
+        "b4": 39,
+        "b5": 26,
+        "b6": 57,
+        "b7": 53
+      },
+      "ranked_books": [
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 57
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 53
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 39
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 26
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 24
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 20
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 9
+        }
+      ],
+      "graph_node_id": "w_3"
+    },
+    {
+      "name": "Albus Dumbledore",
+      "spells_used": [
+        "Expecto Patronum",
+        "Lumos"
+      ],
+      "elixirs_used": [
+        "Emerald Potion",
+        "Veritaserum"
+      ],
+      "total_spells": 2,
+      "total_elixirs": 2,
+      "total_magic_count": 138,
+      "book_counts": {
+        "b1": 2,
+        "b2": 5,
+        "b3": 29,
+        "b4": 19,
+        "b5": 29,
+        "b6": 24,
+        "b7": 30
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 30
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 29
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 29
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 24
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 19
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 5
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 2
+        }
+      ],
+      "graph_node_id": "w_4"
+    },
+    {
+      "name": "Lord Voldemort",
+      "spells_used": [
+        "Avada Kedavra",
+        "Crucio",
+        "Imperio",
+        "Morsmordre"
+      ],
+      "elixirs_used": [
+        "Elixir of Life",
+        "Emerald Potion"
+      ],
+      "total_spells": 4,
+      "total_elixirs": 2,
+      "total_magic_count": 135,
+      "book_counts": {
+        "b1": 13,
+        "b2": 0,
+        "b3": 0,
+        "b4": 37,
+        "b5": 15,
+        "b6": 28,
+        "b7": 42
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 42
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 37
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 28
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 15
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 13
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_5"
+    },
+    {
+      "name": "Remus Lupin",
+      "spells_used": [
+        "Expecto Patronum",
+        "Expelliarmus",
+        "Riddikulus"
+      ],
+      "elixirs_used": [
+        "Wolfsbane Potion"
+      ],
+      "total_spells": 3,
+      "total_elixirs": 1,
+      "total_magic_count": 131,
+      "book_counts": {
+        "b1": 0,
+        "b2": 3,
+        "b3": 43,
+        "b4": 18,
+        "b5": 26,
+        "b6": 14,
+        "b7": 27
+      },
+      "ranked_books": [
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 43
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 27
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 26
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 18
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 14
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 3
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_6"
+    },
+    {
+      "name": "Draco Malfoy",
+      "spells_used": [
+        "Imperio",
+        "Petrificus Totalus"
+      ],
+      "elixirs_used": [
+        "Polyjuice Potion"
+      ],
+      "total_spells": 2,
+      "total_elixirs": 1,
+      "total_magic_count": 102,
+      "book_counts": {
+        "b1": 4,
+        "b2": 12,
+        "b3": 0,
+        "b4": 28,
+        "b5": 10,
+        "b6": 18,
+        "b7": 30
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 30
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 28
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 18
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 12
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 10
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 4
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_7"
+    },
+    {
+      "name": "Bellatrix Lestrange",
+      "spells_used": [
+        "Avada Kedavra",
+        "Crucio"
+      ],
+      "elixirs_used": [],
+      "total_spells": 2,
+      "total_elixirs": 0,
+      "total_magic_count": 64,
+      "book_counts": {
+        "b1": 1,
+        "b2": 0,
+        "b3": 0,
+        "b4": 17,
+        "b5": 11,
+        "b6": 8,
+        "b7": 27
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 27
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 17
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 11
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 8
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 1
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_8"
+    },
+    {
+      "name": "Levina Monkstanley",
+      "spells_used": [
+        "Lumos"
+      ],
+      "elixirs_used": [],
+      "total_spells": 1,
+      "total_elixirs": 0,
+      "total_magic_count": 55,
+      "book_counts": {
+        "b1": 2,
+        "b2": 5,
+        "b3": 11,
+        "b4": 6,
+        "b5": 8,
+        "b6": 9,
+        "b7": 14
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 14
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 11
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 9
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 8
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 6
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 5
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 2
+        }
+      ],
+      "graph_node_id": "w_9"
+    },
+    {
+      "name": "Zygmunt Budge",
+      "spells_used": [],
+      "elixirs_used": [
+        "Beautification Potion",
+        "Doxycide",
+        "Felix Felicis"
+      ],
+      "total_spells": 0,
+      "total_elixirs": 3,
+      "total_magic_count": 32,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 3,
+        "b5": 7,
+        "b6": 18,
+        "b7": 4
+      },
+      "ranked_books": [
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 18
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 7
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 4
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 3
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_10"
+    },
+    {
+      "name": "Fred Weasley",
+      "spells_used": [],
+      "elixirs_used": [
+        "Doxycide",
+        "Love potion"
+      ],
+      "total_spells": 0,
+      "total_elixirs": 2,
+      "total_magic_count": 26,
+      "book_counts": {
+        "b1": 0,
+        "b2": 2,
+        "b3": 0,
+        "b4": 1,
+        "b5": 7,
+        "b6": 14,
+        "b7": 2
+      },
+      "ranked_books": [
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 14
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 7
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 2
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 2
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_11"
+    },
+    {
+      "name": "George Weasley",
+      "spells_used": [],
+      "elixirs_used": [
+        "Doxycide",
+        "Love potion"
+      ],
+      "total_spells": 0,
+      "total_elixirs": 2,
+      "total_magic_count": 26,
+      "book_counts": {
+        "b1": 0,
+        "b2": 2,
+        "b3": 0,
+        "b4": 1,
+        "b5": 7,
+        "b6": 14,
+        "b7": 2
+      },
+      "ranked_books": [
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 14
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 7
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 2
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 2
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_12"
+    },
+    {
+      "name": "Laverne de Montmorency",
+      "spells_used": [],
+      "elixirs_used": [
+        "Love potion"
+      ],
+      "total_spells": 0,
+      "total_elixirs": 1,
+      "total_magic_count": 20,
+      "book_counts": {
+        "b1": 0,
+        "b2": 2,
+        "b3": 0,
+        "b4": 1,
+        "b5": 1,
+        "b6": 14,
+        "b7": 2
+      },
+      "ranked_books": [
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 14
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 2
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 2
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 1
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_13"
+    },
+    {
+      "name": "Gilderoy Lockhart",
+      "spells_used": [
+        "Obliviate",
+        "Peskipiksi Pesternomi"
+      ],
+      "elixirs_used": [],
+      "total_spells": 2,
+      "total_elixirs": 0,
+      "total_magic_count": 17,
+      "book_counts": {
+        "b1": 0,
+        "b2": 8,
+        "b3": 0,
+        "b4": 2,
+        "b5": 1,
+        "b6": 1,
+        "b7": 5
+      },
+      "ranked_books": [
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 8
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 5
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 2
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 1
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_14"
+    },
+    {
+      "name": "Damocles Belby",
+      "spells_used": [],
+      "elixirs_used": [
+        "Wolfsbane Potion"
+      ],
+      "total_spells": 0,
+      "total_elixirs": 1,
+      "total_magic_count": 17,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 10,
+        "b4": 1,
+        "b5": 2,
+        "b6": 4,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 10
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 4
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 2
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_15"
+    },
+    {
+      "name": "Nicolas Flamel",
+      "spells_used": [],
+      "elixirs_used": [
+        "Elixir of Life"
+      ],
+      "total_spells": 0,
+      "total_elixirs": 1,
+      "total_magic_count": 17,
+      "book_counts": {
+        "b1": 12,
+        "b2": 0,
+        "b3": 0,
+        "b4": 2,
+        "b5": 0,
+        "b6": 2,
+        "b7": 1
+      },
+      "ranked_books": [
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 12
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 2
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 2
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 1
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_16"
+    },
+    {
+      "name": "Glover Hipworth",
+      "spells_used": [],
+      "elixirs_used": [
+        "Pepperup Potion"
+      ],
+      "total_spells": 0,
+      "total_elixirs": 1,
+      "total_magic_count": 12,
+      "book_counts": {
+        "b1": 0,
+        "b2": 6,
+        "b3": 1,
+        "b4": 3,
+        "b5": 2,
+        "b6": 0,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 6
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 3
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 2
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_17"
+    },
+    {
+      "name": "Linfred of Stinchcombe",
+      "spells_used": [],
+      "elixirs_used": [
+        "Skele-Gro"
+      ],
+      "total_spells": 0,
+      "total_elixirs": 1,
+      "total_magic_count": 10,
+      "book_counts": {
+        "b1": 0,
+        "b2": 8,
+        "b3": 0,
+        "b4": 0,
+        "b5": 0,
+        "b6": 0,
+        "b7": 2
+      },
+      "ranked_books": [
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 8
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 2
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 0
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 0
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_18"
+    },
+    {
+      "name": "Mrs Skower",
+      "spells_used": [],
+      "elixirs_used": [
+        "Mrs Skower's All-Purpose Magical Mess Remover"
+      ],
+      "total_spells": 0,
+      "total_elixirs": 1,
+      "total_magic_count": 6,
+      "book_counts": {
+        "b1": 0,
+        "b2": 4,
+        "b3": 0,
+        "b4": 2,
+        "b5": 0,
+        "b6": 0,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 4
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 2
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 0
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_19"
+    },
+    {
+      "name": "Fleamont Potter",
+      "spells_used": [],
+      "elixirs_used": [
+        "Sleekeazy's Hair Potion"
+      ],
+      "total_spells": 0,
+      "total_elixirs": 1,
+      "total_magic_count": 5,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 4,
+        "b5": 0,
+        "b6": 1,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 4
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_20"
+    },
+    {
+      "name": "Sacharissa Tugwood",
+      "spells_used": [],
+      "elixirs_used": [
+        "Beautification Potion"
+      ],
+      "total_spells": 0,
+      "total_elixirs": 1,
+      "total_magic_count": 4,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 3,
+        "b5": 1,
+        "b6": 0,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 3
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_21"
+    },
+    {
+      "name": "Dr Ubbly",
+      "spells_used": [],
+      "elixirs_used": [
+        "Dr Ubbly's Oblivious Unction"
+      ],
+      "total_spells": 0,
+      "total_elixirs": 1,
+      "total_magic_count": 3,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 0,
+        "b5": 3,
+        "b6": 0,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 3
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 0
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "w_22"
+    }
+  ],
+  "magic_items": [
+    {
+      "id": "magic_1",
+      "name": "Expelliarmus",
+      "type": "Spell",
+      "category": "Charm / Combat",
+      "incantation": null,
+      "effect": "The Disarming Charm. Harry Potter's signature spell used to disarm opponents and famously counter Voldemort's Killing Curse.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Harry Potter",
+        "Severus Snape",
+        "Remus Lupin"
+      ],
+      "total_uses_world": 47,
+      "book_counts": {
+        "b1": 0,
+        "b2": 3,
+        "b3": 4,
+        "b4": 10,
+        "b5": 8,
+        "b6": 7,
+        "b7": 15
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 15
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 10
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 8
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 7
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 4
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 3
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Expelliarmus"
+    },
+    {
+      "id": "magic_2",
+      "name": "Expecto Patronum",
+      "type": "Spell",
+      "category": "Charm / Defensive",
+      "incantation": null,
+      "effect": "The Patronus Charm. Conjures a positive energy spirit guardian to repel Dementors and Lethifolds.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Harry Potter",
+        "Remus Lupin",
+        "Severus Snape",
+        "Hermione Granger",
+        "Albus Dumbledore"
+      ],
+      "total_uses_world": 52,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 18,
+        "b4": 5,
+        "b5": 14,
+        "b6": 3,
+        "b7": 12
+      },
+      "ranked_books": [
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 18
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 14
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 12
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 5
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 3
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Expecto_Patronum"
+    },
+    {
+      "id": "magic_3",
+      "name": "Avada Kedavra",
+      "type": "Spell",
+      "category": "Unforgivable Curse / Dark Arts",
+      "incantation": null,
+      "effect": "The Killing Curse. Produces blinding green light and causes instantaneous, painless death. Voldemort's weapon of choice.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Lord Voldemort",
+        "Severus Snape",
+        "Bellatrix Lestrange"
+      ],
+      "total_uses_world": 35,
+      "book_counts": {
+        "b1": 1,
+        "b2": 0,
+        "b3": 0,
+        "b4": 9,
+        "b5": 4,
+        "b6": 5,
+        "b7": 16
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 16
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 9
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 5
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 4
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 1
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Avada_Kedavra"
+    },
+    {
+      "id": "magic_4",
+      "name": "Crucio",
+      "type": "Spell",
+      "category": "Unforgivable Curse / Dark Arts",
+      "incantation": null,
+      "effect": "The Cruciatus Curse. Inflicts excruciating, agonizing physical pain on the victim.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Lord Voldemort",
+        "Bellatrix Lestrange",
+        "Harry Potter"
+      ],
+      "total_uses_world": 29,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 8,
+        "b5": 7,
+        "b6": 3,
+        "b7": 11
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 11
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 8
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 7
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 3
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Crucio"
+    },
+    {
+      "id": "magic_5",
+      "name": "Imperio",
+      "type": "Spell",
+      "category": "Unforgivable Curse / Dark Arts",
+      "incantation": null,
+      "effect": "The Imperius Curse. Places the victim under complete total hypnotic control of the caster.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Lord Voldemort",
+        "Harry Potter",
+        "Draco Malfoy"
+      ],
+      "total_uses_world": 28,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 12,
+        "b5": 3,
+        "b6": 5,
+        "b7": 8
+      },
+      "ranked_books": [
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 12
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 8
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 5
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 3
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Imperio"
+    },
+    {
+      "id": "magic_6",
+      "name": "Stupefy",
+      "type": "Spell",
+      "category": "Charm / Combat",
+      "incantation": null,
+      "effect": "The Stunning Spell. Emits a flash of red light rendering targets unconscious.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Harry Potter",
+        "Hermione Granger",
+        "Severus Snape"
+      ],
+      "total_uses_world": 54,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 9,
+        "b5": 17,
+        "b6": 10,
+        "b7": 18
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 18
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 17
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 10
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 9
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Stupefy"
+    },
+    {
+      "id": "magic_7",
+      "name": "Lumos",
+      "type": "Spell",
+      "category": "Charm / Utility",
+      "incantation": null,
+      "effect": "The Wand-Lighting Charm. Created by Levina Monkstanley in 1772 to illuminate darkness.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Harry Potter",
+        "Ron Weasley",
+        "Hermione Granger",
+        "Levina Monkstanley",
+        "Albus Dumbledore"
+      ],
+      "total_uses_world": 55,
+      "book_counts": {
+        "b1": 2,
+        "b2": 5,
+        "b3": 11,
+        "b4": 6,
+        "b5": 8,
+        "b6": 9,
+        "b7": 14
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 14
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 11
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 9
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 8
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 6
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 5
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 2
+        }
+      ],
+      "graph_node_id": "m_Lumos"
+    },
+    {
+      "id": "magic_8",
+      "name": "Sectumsempra",
+      "type": "Spell",
+      "category": "Curse / Dark Arts",
+      "incantation": "Sectumsempra",
+      "effect": "Lacerates target",
+      "light": "White",
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": "Severus Snape",
+      "associated_wizards": [
+        "Severus Snape",
+        "Harry Potter"
+      ],
+      "total_uses_world": 16,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 0,
+        "b5": 0,
+        "b6": 11,
+        "b7": 5
+      },
+      "ranked_books": [
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 11
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 5
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 0
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Sectumsempra"
+    },
+    {
+      "id": "magic_9",
+      "name": "Levicorpus",
+      "type": "Spell",
+      "category": "Jinx / Combat",
+      "incantation": null,
+      "effect": "Invented by Severus Snape during his school years; hoists the victim upside down in midair by their ankle.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Severus Snape",
+        "Harry Potter",
+        "Hermione Granger"
+      ],
+      "total_uses_world": 16,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 2,
+        "b5": 3,
+        "b6": 7,
+        "b7": 4
+      },
+      "ranked_books": [
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 7
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 4
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 3
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 2
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Levicorpus"
+    },
+    {
+      "id": "magic_10",
+      "name": "Morsmordre",
+      "type": "Spell",
+      "category": "Dark Arts",
+      "incantation": "Morsmordre",
+      "effect": "Conjures Dark Mark",
+      "light": "Green",
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": "Tom Riddle",
+      "associated_wizards": [
+        "Lord Voldemort"
+      ],
+      "total_uses_world": 14,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 6,
+        "b5": 1,
+        "b6": 4,
+        "b7": 3
+      },
+      "ranked_books": [
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 6
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 4
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 3
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Morsmordre"
+    },
+    {
+      "id": "magic_11",
+      "name": "Muffliato",
+      "type": "Spell",
+      "category": "Charm / Stealth",
+      "incantation": null,
+      "effect": "Invented by Severus Snape; fills nearby ears with an unidentifiable buzzing to conceal private discussions.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Severus Snape",
+        "Harry Potter",
+        "Hermione Granger"
+      ],
+      "total_uses_world": 17,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 0,
+        "b5": 0,
+        "b6": 8,
+        "b7": 9
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 9
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 8
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 0
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Muffliato"
+    },
+    {
+      "id": "magic_12",
+      "name": "Accio",
+      "type": "Spell",
+      "category": "Charm / Utility",
+      "incantation": null,
+      "effect": "The Summoning Charm. Summons inanimate objects across great distances straight to the caster's hand.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Harry Potter",
+        "Hermione Granger",
+        "Ron Weasley"
+      ],
+      "total_uses_world": 41,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 14,
+        "b5": 9,
+        "b6": 6,
+        "b7": 12
+      },
+      "ranked_books": [
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 14
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 12
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 9
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 6
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Accio"
+    },
+    {
+      "id": "magic_13",
+      "name": "Alohomora",
+      "type": "Spell",
+      "category": "Charm / Utility",
+      "incantation": null,
+      "effect": "The Unlocking Charm. Unlocks non-magically locked doors and windows.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Hermione Granger",
+        "Harry Potter"
+      ],
+      "total_uses_world": 18,
+      "book_counts": {
+        "b1": 5,
+        "b2": 2,
+        "b3": 3,
+        "b4": 1,
+        "b5": 4,
+        "b6": 1,
+        "b7": 2
+      },
+      "ranked_books": [
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 5
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 4
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 3
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 2
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 2
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 1
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 1
+        }
+      ],
+      "graph_node_id": "m_Alohomora"
+    },
+    {
+      "id": "magic_14",
+      "name": "Wingardium Leviosa",
+      "type": "Spell",
+      "category": "Charm / Utility",
+      "incantation": null,
+      "effect": "The Levitation Charm. Created by Jarleth Hobart in 1544; allows objects to fly and hover.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Ron Weasley",
+        "Hermione Granger",
+        "Harry Potter"
+      ],
+      "total_uses_world": 18,
+      "book_counts": {
+        "b1": 7,
+        "b2": 1,
+        "b3": 2,
+        "b4": 1,
+        "b5": 2,
+        "b6": 1,
+        "b7": 4
+      },
+      "ranked_books": [
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 7
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 4
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 2
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 2
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 1
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 1
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 1
+        }
+      ],
+      "graph_node_id": "m_Wingardium_Leviosa"
+    },
+    {
+      "id": "magic_15",
+      "name": "Obliviate",
+      "type": "Spell",
+      "category": "Charm / Memory",
+      "incantation": null,
+      "effect": "The Memory Charm. Erases or modifies specific memories from the victim's mind.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Gilderoy Lockhart",
+        "Hermione Granger"
+      ],
+      "total_uses_world": 15,
+      "book_counts": {
+        "b1": 0,
+        "b2": 6,
+        "b3": 0,
+        "b4": 2,
+        "b5": 1,
+        "b6": 1,
+        "b7": 5
+      },
+      "ranked_books": [
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 6
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 5
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 2
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 1
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Obliviate"
+    },
+    {
+      "id": "magic_16",
+      "name": "Peskipiksi Pesternomi",
+      "type": "Spell",
+      "category": "Charm / Failed",
+      "incantation": "Peskipiksi Pesternomi",
+      "effect": "Nothing (supposedly captures pixies)",
+      "light": "Transparent",
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": "Gilderoy Lockhart (1992)",
+      "associated_wizards": [
+        "Gilderoy Lockhart"
+      ],
+      "total_uses_world": 2,
+      "book_counts": {
+        "b1": 0,
+        "b2": 2,
+        "b3": 0,
+        "b4": 0,
+        "b5": 0,
+        "b6": 0,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 2
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 0
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 0
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Peskipiksi_Pesternomi"
+    },
+    {
+      "id": "magic_17",
+      "name": "Petrificus Totalus",
+      "type": "Spell",
+      "category": "Curse / Combat",
+      "incantation": null,
+      "effect": "The Full Body-Bind Curse. Temporarily paralyzes the victim's entire body rigid as stone.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Hermione Granger",
+        "Harry Potter",
+        "Draco Malfoy"
+      ],
+      "total_uses_world": 20,
+      "book_counts": {
+        "b1": 4,
+        "b2": 0,
+        "b3": 0,
+        "b4": 1,
+        "b5": 6,
+        "b6": 4,
+        "b7": 5
+      },
+      "ranked_books": [
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 6
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 5
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 4
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 4
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 1
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Petrificus_Totalus"
+    },
+    {
+      "id": "magic_18",
+      "name": "Riddikulus",
+      "type": "Spell",
+      "category": "Charm / Defense Against Dark Arts",
+      "incantation": null,
+      "effect": "Used to banish Boggarts by forcing them to transform into something humorous.",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Remus Lupin",
+        "Harry Potter",
+        "Ron Weasley"
+      ],
+      "total_uses_world": 15,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 11,
+        "b4": 2,
+        "b5": 2,
+        "b6": 0,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 11
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 2
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 2
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Riddikulus"
+    },
+    {
+      "id": "magic_19",
+      "name": "Polyjuice Potion",
+      "type": "Elixir",
+      "category": "Transformation / Infiltration",
+      "incantation": null,
+      "effect": "Allows a human drinker to temporarily assume the form of another person",
+      "light": null,
+      "difficulty": "Advanced",
+      "ingredients": [
+        "Lacewing flies",
+        "Leeches",
+        "A bit of the person one wants to turn into",
+        "Powdered bicorn horn",
+        "Boomslang skin",
+        "Fluxweed",
+        "Knotgrass"
+      ],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Harry Potter",
+        "Hermione Granger",
+        "Ron Weasley",
+        "Draco Malfoy"
+      ],
+      "total_uses_world": 54,
+      "book_counts": {
+        "b1": 0,
+        "b2": 12,
+        "b3": 0,
+        "b4": 15,
+        "b5": 1,
+        "b6": 9,
+        "b7": 17
+      },
+      "ranked_books": [
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 17
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 15
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 12
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 9
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Polyjuice_Potion"
+    },
+    {
+      "id": "magic_20",
+      "name": "Felix Felicis",
+      "type": "Elixir",
+      "category": "Luck / Fortune",
+      "incantation": null,
+      "effect": "Makes the drinker lucky",
+      "light": null,
+      "difficulty": "Advanced",
+      "ingredients": [
+        "Tincture of thyme",
+        "Occamy eggshell",
+        "Ashwinder egg",
+        "Powdered common rue",
+        "Squill bulb",
+        "Murtlap tentacle"
+      ],
+      "creator_or_inventor": "Zygmunt Budge",
+      "associated_wizards": [
+        "Zygmunt Budge",
+        "Harry Potter",
+        "Ron Weasley",
+        "Hermione Granger"
+      ],
+      "total_uses_world": 22,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 0,
+        "b5": 0,
+        "b6": 18,
+        "b7": 4
+      },
+      "ranked_books": [
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 18
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 4
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 0
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Felix_Felicis"
+    },
+    {
+      "id": "magic_21",
+      "name": "Wolfsbane Potion",
+      "type": "Elixir",
+      "category": "Healing / Lycanthropy",
+      "incantation": null,
+      "effect": "Allows werewolves to keep their minds post-transformation",
+      "light": null,
+      "difficulty": "Advanced",
+      "ingredients": [
+        "Wolfsbane"
+      ],
+      "creator_or_inventor": "Damocles Belby",
+      "associated_wizards": [
+        "Damocles Belby",
+        "Remus Lupin",
+        "Severus Snape"
+      ],
+      "total_uses_world": 17,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 10,
+        "b4": 1,
+        "b5": 2,
+        "b6": 4,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 10
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 4
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 2
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Wolfsbane_Potion"
+    },
+    {
+      "id": "magic_22",
+      "name": "Skele-Gro",
+      "type": "Elixir",
+      "category": "Healing / Regeneration",
+      "incantation": null,
+      "effect": "Restores bones",
+      "light": null,
+      "difficulty": "Moderate",
+      "ingredients": [
+        "Scarab beetles",
+        "Fanged Geranium",
+        "Chinese Chomping Cabbage",
+        "Arm bone",
+        "Red spider",
+        "Puffer-fish"
+      ],
+      "creator_or_inventor": "Linfred of Stinchcombe",
+      "associated_wizards": [
+        "Linfred of Stinchcombe",
+        "Harry Potter"
+      ],
+      "total_uses_world": 10,
+      "book_counts": {
+        "b1": 0,
+        "b2": 8,
+        "b3": 0,
+        "b4": 0,
+        "b5": 0,
+        "b6": 0,
+        "b7": 2
+      },
+      "ranked_books": [
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 8
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 2
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 0
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 0
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Skele-Gro"
+    },
+    {
+      "id": "magic_23",
+      "name": "Veritaserum",
+      "type": "Elixir",
+      "category": "Interrogation / Truth",
+      "incantation": null,
+      "effect": "Forces drinker to speak the truth",
+      "light": null,
+      "difficulty": "Advanced",
+      "ingredients": [],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Severus Snape",
+        "Albus Dumbledore"
+      ],
+      "total_uses_world": 19,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 8,
+        "b5": 7,
+        "b6": 3,
+        "b7": 1
+      },
+      "ranked_books": [
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 8
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 7
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 3
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Veritaserum"
+    },
+    {
+      "id": "magic_24",
+      "name": "Love potion",
+      "type": "Elixir",
+      "category": "Mind Altering / Infatuation",
+      "incantation": null,
+      "effect": "Infatuation with whoever offers the potion",
+      "light": null,
+      "difficulty": "Advanced",
+      "ingredients": [
+        "Rose Petals",
+        "Pearl Dust",
+        "Peppermint",
+        "Ashwinder egg",
+        "Powdered moonstone",
+        "Rose thorns"
+      ],
+      "creator_or_inventor": "Fred Weasley, George Weasley, Laverne de Montmorency",
+      "associated_wizards": [
+        "Fred Weasley",
+        "George Weasley",
+        "Laverne de Montmorency",
+        "Ron Weasley"
+      ],
+      "total_uses_world": 20,
+      "book_counts": {
+        "b1": 0,
+        "b2": 2,
+        "b3": 0,
+        "b4": 1,
+        "b5": 1,
+        "b6": 14,
+        "b7": 2
+      },
+      "ranked_books": [
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 14
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 2
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 2
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 1
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Love_potion"
+    },
+    {
+      "id": "magic_25",
+      "name": "Elixir of Life",
+      "type": "Elixir",
+      "category": "Immortality / Alchemy",
+      "incantation": null,
+      "effect": "Immortality",
+      "light": null,
+      "difficulty": "OneOfAKind",
+      "ingredients": [],
+      "creator_or_inventor": "Nicolas Flamel",
+      "associated_wizards": [
+        "Nicolas Flamel",
+        "Lord Voldemort"
+      ],
+      "total_uses_world": 17,
+      "book_counts": {
+        "b1": 12,
+        "b2": 0,
+        "b3": 0,
+        "b4": 2,
+        "b5": 0,
+        "b6": 2,
+        "b7": 1
+      },
+      "ranked_books": [
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 12
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 2
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 2
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 1
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Elixir_of_Life"
+    },
+    {
+      "id": "magic_26",
+      "name": "Emerald Potion",
+      "type": "Elixir",
+      "category": "Dark Arts / Poison",
+      "incantation": null,
+      "effect": "Induces fear, delirium, intense stomach pain and extreme thirst in the drinker",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": "Tom Riddle",
+      "associated_wizards": [
+        "Lord Voldemort",
+        "Albus Dumbledore"
+      ],
+      "total_uses_world": 12,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 0,
+        "b5": 0,
+        "b6": 9,
+        "b7": 3
+      },
+      "ranked_books": [
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 9
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 3
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 0
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Emerald_Potion"
+    },
+    {
+      "id": "magic_27",
+      "name": "Draught of Living Death",
+      "type": "Elixir",
+      "category": "Sleep / Coma",
+      "incantation": null,
+      "effect": "Causes the drinker to fall into a deep, death-like slumber",
+      "light": null,
+      "difficulty": "Advanced",
+      "ingredients": [
+        "Moondew",
+        "Infusion of Wormwood",
+        "Valerian root",
+        "Flower head",
+        "Water",
+        "Powdered Root of Asphodel",
+        "Sopophorous bean",
+        "Sloth brain"
+      ],
+      "creator_or_inventor": null,
+      "associated_wizards": [
+        "Harry Potter",
+        "Severus Snape"
+      ],
+      "total_uses_world": 15,
+      "book_counts": {
+        "b1": 3,
+        "b2": 0,
+        "b3": 0,
+        "b4": 0,
+        "b5": 0,
+        "b6": 11,
+        "b7": 1
+      },
+      "ranked_books": [
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 11
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 3
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 1
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 0
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Draught_of_Living_Death"
+    },
+    {
+      "id": "magic_28",
+      "name": "Pepperup Potion",
+      "type": "Elixir",
+      "category": "Healing / Health",
+      "incantation": null,
+      "effect": "Cures common cold; Warms up recipient",
+      "light": null,
+      "difficulty": "Moderate",
+      "ingredients": [
+        "Bicorn horn",
+        "Jewelweed",
+        "Mandrake Root"
+      ],
+      "creator_or_inventor": "Glover Hipworth",
+      "associated_wizards": [
+        "Glover Hipworth"
+      ],
+      "total_uses_world": 12,
+      "book_counts": {
+        "b1": 0,
+        "b2": 6,
+        "b3": 1,
+        "b4": 3,
+        "b5": 2,
+        "b6": 0,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 6
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 3
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 2
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Pepperup_Potion"
+    },
+    {
+      "id": "magic_29",
+      "name": "Sleekeazy's Hair Potion",
+      "type": "Elixir",
+      "category": "Beauty / Grooming",
+      "incantation": null,
+      "effect": "Makes hair more manageable",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [
+        "Petroleum Jelly",
+        "Asian Dragon Hair",
+        "Gomas Barbadensis"
+      ],
+      "creator_or_inventor": "Fleamont Potter",
+      "associated_wizards": [
+        "Fleamont Potter",
+        "Hermione Granger"
+      ],
+      "total_uses_world": 5,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 4,
+        "b5": 0,
+        "b6": 1,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 4
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Sleekeazy's_Hair_Potion"
+    },
+    {
+      "id": "magic_30",
+      "name": "Doxycide",
+      "type": "Elixir",
+      "category": "Pest Control",
+      "incantation": null,
+      "effect": "Temporarily stuns Doxies so that the pests can be removed from a home",
+      "light": null,
+      "difficulty": "Moderate",
+      "ingredients": [
+        "Dragon liver",
+        "Bundimun Ooze",
+        "Streeler shells",
+        "Tormentil tincture",
+        "Hemlock essence",
+        "Cowbane essence"
+      ],
+      "creator_or_inventor": "Zygmunt Budge",
+      "associated_wizards": [
+        "Zygmunt Budge",
+        "Fred Weasley",
+        "George Weasley",
+        "Harry Potter"
+      ],
+      "total_uses_world": 6,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 0,
+        "b5": 6,
+        "b6": 0,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 6
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 0
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Doxycide"
+    },
+    {
+      "id": "magic_31",
+      "name": "Mrs Skower's All-Purpose Magical Mess Remover",
+      "type": "Elixir",
+      "category": "Household / Cleaning",
+      "incantation": null,
+      "effect": "Cleans stains",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": "Mrs Skower",
+      "associated_wizards": [
+        "Mrs Skower"
+      ],
+      "total_uses_world": 6,
+      "book_counts": {
+        "b1": 0,
+        "b2": 4,
+        "b3": 0,
+        "b4": 2,
+        "b5": 0,
+        "b6": 0,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 4
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 2
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 0
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Mrs_Skower's_All-Purpose_Magical_Mess_Remover"
+    },
+    {
+      "id": "magic_32",
+      "name": "Dr Ubbly's Oblivious Unction",
+      "type": "Elixir",
+      "category": "Healing / Mental",
+      "incantation": null,
+      "effect": "Heals wounds left by negative thoughts",
+      "light": null,
+      "difficulty": "Unknown",
+      "ingredients": [],
+      "creator_or_inventor": "Dr Ubbly",
+      "associated_wizards": [
+        "Dr Ubbly",
+        "Ron Weasley"
+      ],
+      "total_uses_world": 3,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 0,
+        "b5": 3,
+        "b6": 0,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 3
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 0
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Dr_Ubbly's_Oblivious_Unction"
+    },
+    {
+      "id": "magic_33",
+      "name": "Beautification Potion",
+      "type": "Elixir",
+      "category": "Cosmetic / Beauty",
+      "incantation": null,
+      "effect": "Enhances the attractiveness of the drinker's physical appearance",
+      "light": null,
+      "difficulty": "Moderate",
+      "ingredients": [
+        "Lady's Mantle",
+        "Rose Petals",
+        "Ginger roots",
+        "Unicorn hair",
+        "Fairy wings",
+        "Morning dew",
+        "Boomslang skin"
+      ],
+      "creator_or_inventor": "Sacharissa Tugwood, Zygmunt Budge",
+      "associated_wizards": [
+        "Sacharissa Tugwood",
+        "Zygmunt Budge"
+      ],
+      "total_uses_world": 4,
+      "book_counts": {
+        "b1": 0,
+        "b2": 0,
+        "b3": 0,
+        "b4": 3,
+        "b5": 1,
+        "b6": 0,
+        "b7": 0
+      },
+      "ranked_books": [
+        {
+          "book_id": "b4",
+          "book_code": "GoF",
+          "book_title": "Goblet of Fire",
+          "book_full": "Book 4: Harry Potter and the Goblet of Fire",
+          "year": 2000,
+          "count": 3
+        },
+        {
+          "book_id": "b5",
+          "book_code": "OotP",
+          "book_title": "Order of the Phoenix",
+          "book_full": "Book 5: Harry Potter and the Order of the Phoenix",
+          "year": 2003,
+          "count": 1
+        },
+        {
+          "book_id": "b1",
+          "book_code": "PS",
+          "book_title": "Philosopher's Stone",
+          "book_full": "Book 1: Harry Potter and the Philosopher's Stone",
+          "year": 1997,
+          "count": 0
+        },
+        {
+          "book_id": "b2",
+          "book_code": "CoS",
+          "book_title": "Chamber of Secrets",
+          "book_full": "Book 2: Harry Potter and the Chamber of Secrets",
+          "year": 1998,
+          "count": 0
+        },
+        {
+          "book_id": "b3",
+          "book_code": "PoA",
+          "book_title": "Prisoner of Azkaban",
+          "book_full": "Book 3: Harry Potter and the Prisoner of Azkaban",
+          "year": 1999,
+          "count": 0
+        },
+        {
+          "book_id": "b6",
+          "book_code": "HBP",
+          "book_title": "Half-Blood Prince",
+          "book_full": "Book 6: Harry Potter and the Half-Blood Prince",
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "book_id": "b7",
+          "book_code": "DH",
+          "book_title": "Deathly Hallows",
+          "book_full": "Book 7: Harry Potter and the Deathly Hallows",
+          "year": 2007,
+          "count": 0
+        }
+      ],
+      "graph_node_id": "m_Beautification_Potion"
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "w_0",
+        "label": "Harry Potter",
+        "group": "wizard",
+        "value": 55,
+        "title": "<b>Harry Potter</b><br>Spells: 14<br>Elixirs: 5<br>Total Magic Uses: 533"
+      },
+      {
+        "id": "w_1",
+        "label": "Hermione Granger",
+        "group": "wizard",
+        "value": 55,
+        "title": "<b>Hermione Granger</b><br>Spells: 10<br>Elixirs: 3<br>Total Magic Uses: 387"
+      },
+      {
+        "id": "w_2",
+        "label": "Severus Snape",
+        "group": "wizard",
+        "value": 55,
+        "title": "<b>Severus Snape</b><br>Spells: 7<br>Elixirs: 3<br>Total Magic Uses: 288"
+      },
+      {
+        "id": "w_3",
+        "label": "Ron Weasley",
+        "group": "wizard",
+        "value": 55,
+        "title": "<b>Ron Weasley</b><br>Spells: 4<br>Elixirs: 4<br>Total Magic Uses: 228"
+      },
+      {
+        "id": "w_4",
+        "label": "Albus Dumbledore",
+        "group": "wizard",
+        "value": 34.5,
+        "title": "<b>Albus Dumbledore</b><br>Spells: 2<br>Elixirs: 2<br>Total Magic Uses: 138"
+      },
+      {
+        "id": "w_5",
+        "label": "Lord Voldemort",
+        "group": "wizard",
+        "value": 33.75,
+        "title": "<b>Lord Voldemort</b><br>Spells: 4<br>Elixirs: 2<br>Total Magic Uses: 135"
+      },
+      {
+        "id": "w_6",
+        "label": "Remus Lupin",
+        "group": "wizard",
+        "value": 32.75,
+        "title": "<b>Remus Lupin</b><br>Spells: 3<br>Elixirs: 1<br>Total Magic Uses: 131"
+      },
+      {
+        "id": "w_7",
+        "label": "Draco Malfoy",
+        "group": "wizard",
+        "value": 25.5,
+        "title": "<b>Draco Malfoy</b><br>Spells: 2<br>Elixirs: 1<br>Total Magic Uses: 102"
+      },
+      {
+        "id": "w_8",
+        "label": "Bellatrix Lestrange",
+        "group": "wizard",
+        "value": 16.0,
+        "title": "<b>Bellatrix Lestrange</b><br>Spells: 2<br>Elixirs: 0<br>Total Magic Uses: 64"
+      },
+      {
+        "id": "w_9",
+        "label": "Levina Monkstanley",
+        "group": "wizard",
+        "value": 15,
+        "title": "<b>Levina Monkstanley</b><br>Spells: 1<br>Elixirs: 0<br>Total Magic Uses: 55"
+      },
+      {
+        "id": "w_10",
+        "label": "Zygmunt Budge",
+        "group": "wizard",
+        "value": 15,
+        "title": "<b>Zygmunt Budge</b><br>Spells: 0<br>Elixirs: 3<br>Total Magic Uses: 32"
+      },
+      {
+        "id": "w_11",
+        "label": "Fred Weasley",
+        "group": "wizard",
+        "value": 15,
+        "title": "<b>Fred Weasley</b><br>Spells: 0<br>Elixirs: 2<br>Total Magic Uses: 26"
+      },
+      {
+        "id": "w_12",
+        "label": "George Weasley",
+        "group": "wizard",
+        "value": 15,
+        "title": "<b>George Weasley</b><br>Spells: 0<br>Elixirs: 2<br>Total Magic Uses: 26"
+      },
+      {
+        "id": "w_13",
+        "label": "Laverne de Montmorency",
+        "group": "wizard",
+        "value": 15,
+        "title": "<b>Laverne de Montmorency</b><br>Spells: 0<br>Elixirs: 1<br>Total Magic Uses: 20"
+      },
+      {
+        "id": "w_14",
+        "label": "Gilderoy Lockhart",
+        "group": "wizard",
+        "value": 15,
+        "title": "<b>Gilderoy Lockhart</b><br>Spells: 2<br>Elixirs: 0<br>Total Magic Uses: 17"
+      },
+      {
+        "id": "w_15",
+        "label": "Damocles Belby",
+        "group": "wizard",
+        "value": 15,
+        "title": "<b>Damocles Belby</b><br>Spells: 0<br>Elixirs: 1<br>Total Magic Uses: 17"
+      },
+      {
+        "id": "w_16",
+        "label": "Nicolas Flamel",
+        "group": "wizard",
+        "value": 15,
+        "title": "<b>Nicolas Flamel</b><br>Spells: 0<br>Elixirs: 1<br>Total Magic Uses: 17"
+      },
+      {
+        "id": "w_17",
+        "label": "Glover Hipworth",
+        "group": "wizard",
+        "value": 15,
+        "title": "<b>Glover Hipworth</b><br>Spells: 0<br>Elixirs: 1<br>Total Magic Uses: 12"
+      },
+      {
+        "id": "w_18",
+        "label": "Linfred of Stinchcombe",
+        "group": "wizard",
+        "value": 15,
+        "title": "<b>Linfred of Stinchcombe</b><br>Spells: 0<br>Elixirs: 1<br>Total Magic Uses: 10"
+      },
+      {
+        "id": "w_19",
+        "label": "Mrs Skower",
+        "group": "wizard",
+        "value": 15,
+        "title": "<b>Mrs Skower</b><br>Spells: 0<br>Elixirs: 1<br>Total Magic Uses: 6"
+      },
+      {
+        "id": "w_20",
+        "label": "Fleamont Potter",
+        "group": "wizard",
+        "value": 15,
+        "title": "<b>Fleamont Potter</b><br>Spells: 0<br>Elixirs: 1<br>Total Magic Uses: 5"
+      },
+      {
+        "id": "w_21",
+        "label": "Sacharissa Tugwood",
+        "group": "wizard",
+        "value": 15,
+        "title": "<b>Sacharissa Tugwood</b><br>Spells: 0<br>Elixirs: 1<br>Total Magic Uses: 4"
+      },
+      {
+        "id": "w_22",
+        "label": "Dr Ubbly",
+        "group": "wizard",
+        "value": 15,
+        "title": "<b>Dr Ubbly</b><br>Spells: 0<br>Elixirs: 1<br>Total Magic Uses: 3"
+      },
+      {
+        "id": "m_Expelliarmus",
+        "label": "Expelliarmus",
+        "group": "spell",
+        "value": 23.5,
+        "title": "<b>Expelliarmus (Spell)</b><br>Total Uses: 47<br>Most Used In: Deathly Hallows (15x)"
+      },
+      {
+        "id": "m_Expecto_Patronum",
+        "label": "Expecto Patronum",
+        "group": "spell",
+        "value": 26.0,
+        "title": "<b>Expecto Patronum (Spell)</b><br>Total Uses: 52<br>Most Used In: Prisoner of Azkaban (18x)"
+      },
+      {
+        "id": "m_Avada_Kedavra",
+        "label": "Avada Kedavra",
+        "group": "spell",
+        "value": 17.5,
+        "title": "<b>Avada Kedavra (Spell)</b><br>Total Uses: 35<br>Most Used In: Deathly Hallows (16x)"
+      },
+      {
+        "id": "m_Crucio",
+        "label": "Crucio",
+        "group": "spell",
+        "value": 14.5,
+        "title": "<b>Crucio (Spell)</b><br>Total Uses: 29<br>Most Used In: Deathly Hallows (11x)"
+      },
+      {
+        "id": "m_Imperio",
+        "label": "Imperio",
+        "group": "spell",
+        "value": 14.0,
+        "title": "<b>Imperio (Spell)</b><br>Total Uses: 28<br>Most Used In: Goblet of Fire (12x)"
+      },
+      {
+        "id": "m_Stupefy",
+        "label": "Stupefy",
+        "group": "spell",
+        "value": 27.0,
+        "title": "<b>Stupefy (Spell)</b><br>Total Uses: 54<br>Most Used In: Deathly Hallows (18x)"
+      },
+      {
+        "id": "m_Lumos",
+        "label": "Lumos",
+        "group": "spell",
+        "value": 27.5,
+        "title": "<b>Lumos (Spell)</b><br>Total Uses: 55<br>Most Used In: Deathly Hallows (14x)"
+      },
+      {
+        "id": "m_Sectumsempra",
+        "label": "Sectumsempra",
+        "group": "spell",
+        "value": 12,
+        "title": "<b>Sectumsempra (Spell)</b><br>Total Uses: 16<br>Most Used In: Half-Blood Prince (11x)"
+      },
+      {
+        "id": "m_Levicorpus",
+        "label": "Levicorpus",
+        "group": "spell",
+        "value": 12,
+        "title": "<b>Levicorpus (Spell)</b><br>Total Uses: 16<br>Most Used In: Half-Blood Prince (7x)"
+      },
+      {
+        "id": "m_Morsmordre",
+        "label": "Morsmordre",
+        "group": "spell",
+        "value": 12,
+        "title": "<b>Morsmordre (Spell)</b><br>Total Uses: 14<br>Most Used In: Goblet of Fire (6x)"
+      },
+      {
+        "id": "m_Muffliato",
+        "label": "Muffliato",
+        "group": "spell",
+        "value": 12,
+        "title": "<b>Muffliato (Spell)</b><br>Total Uses: 17<br>Most Used In: Deathly Hallows (9x)"
+      },
+      {
+        "id": "m_Accio",
+        "label": "Accio",
+        "group": "spell",
+        "value": 20.5,
+        "title": "<b>Accio (Spell)</b><br>Total Uses: 41<br>Most Used In: Goblet of Fire (14x)"
+      },
+      {
+        "id": "m_Alohomora",
+        "label": "Alohomora",
+        "group": "spell",
+        "value": 12,
+        "title": "<b>Alohomora (Spell)</b><br>Total Uses: 18<br>Most Used In: Philosopher's Stone (5x)"
+      },
+      {
+        "id": "m_Wingardium_Leviosa",
+        "label": "Wingardium Leviosa",
+        "group": "spell",
+        "value": 12,
+        "title": "<b>Wingardium Leviosa (Spell)</b><br>Total Uses: 18<br>Most Used In: Philosopher's Stone (7x)"
+      },
+      {
+        "id": "m_Obliviate",
+        "label": "Obliviate",
+        "group": "spell",
+        "value": 12,
+        "title": "<b>Obliviate (Spell)</b><br>Total Uses: 15<br>Most Used In: Chamber of Secrets (6x)"
+      },
+      {
+        "id": "m_Peskipiksi_Pesternomi",
+        "label": "Peskipiksi Pesternomi",
+        "group": "spell",
+        "value": 12,
+        "title": "<b>Peskipiksi Pesternomi (Spell)</b><br>Total Uses: 2<br>Most Used In: Chamber of Secrets (2x)"
+      },
+      {
+        "id": "m_Petrificus_Totalus",
+        "label": "Petrificus Totalus",
+        "group": "spell",
+        "value": 12,
+        "title": "<b>Petrificus Totalus (Spell)</b><br>Total Uses: 20<br>Most Used In: Order of the Phoenix (6x)"
+      },
+      {
+        "id": "m_Riddikulus",
+        "label": "Riddikulus",
+        "group": "spell",
+        "value": 12,
+        "title": "<b>Riddikulus (Spell)</b><br>Total Uses: 15<br>Most Used In: Prisoner of Azkaban (11x)"
+      },
+      {
+        "id": "m_Polyjuice_Potion",
+        "label": "Polyjuice Potion",
+        "group": "elixir",
+        "value": 27.0,
+        "title": "<b>Polyjuice Potion (Elixir)</b><br>Total Uses: 54<br>Most Used In: Deathly Hallows (17x)"
+      },
+      {
+        "id": "m_Felix_Felicis",
+        "label": "Felix Felicis",
+        "group": "elixir",
+        "value": 12,
+        "title": "<b>Felix Felicis (Elixir)</b><br>Total Uses: 22<br>Most Used In: Half-Blood Prince (18x)"
+      },
+      {
+        "id": "m_Wolfsbane_Potion",
+        "label": "Wolfsbane Potion",
+        "group": "elixir",
+        "value": 12,
+        "title": "<b>Wolfsbane Potion (Elixir)</b><br>Total Uses: 17<br>Most Used In: Prisoner of Azkaban (10x)"
+      },
+      {
+        "id": "m_Skele-Gro",
+        "label": "Skele-Gro",
+        "group": "elixir",
+        "value": 12,
+        "title": "<b>Skele-Gro (Elixir)</b><br>Total Uses: 10<br>Most Used In: Chamber of Secrets (8x)"
+      },
+      {
+        "id": "m_Veritaserum",
+        "label": "Veritaserum",
+        "group": "elixir",
+        "value": 12,
+        "title": "<b>Veritaserum (Elixir)</b><br>Total Uses: 19<br>Most Used In: Goblet of Fire (8x)"
+      },
+      {
+        "id": "m_Love_potion",
+        "label": "Love potion",
+        "group": "elixir",
+        "value": 12,
+        "title": "<b>Love potion (Elixir)</b><br>Total Uses: 20<br>Most Used In: Half-Blood Prince (14x)"
+      },
+      {
+        "id": "m_Elixir_of_Life",
+        "label": "Elixir of Life",
+        "group": "elixir",
+        "value": 12,
+        "title": "<b>Elixir of Life (Elixir)</b><br>Total Uses: 17<br>Most Used In: Philosopher's Stone (12x)"
+      },
+      {
+        "id": "m_Emerald_Potion",
+        "label": "Emerald Potion",
+        "group": "elixir",
+        "value": 12,
+        "title": "<b>Emerald Potion (Elixir)</b><br>Total Uses: 12<br>Most Used In: Half-Blood Prince (9x)"
+      },
+      {
+        "id": "m_Draught_of_Living_Death",
+        "label": "Draught of Living Death",
+        "group": "elixir",
+        "value": 12,
+        "title": "<b>Draught of Living Death (Elixir)</b><br>Total Uses: 15<br>Most Used In: Half-Blood Prince (11x)"
+      },
+      {
+        "id": "m_Pepperup_Potion",
+        "label": "Pepperup Potion",
+        "group": "elixir",
+        "value": 12,
+        "title": "<b>Pepperup Potion (Elixir)</b><br>Total Uses: 12<br>Most Used In: Chamber of Secrets (6x)"
+      },
+      {
+        "id": "m_Sleekeazy's_Hair_Potion",
+        "label": "Sleekeazy's Hair Potion",
+        "group": "elixir",
+        "value": 12,
+        "title": "<b>Sleekeazy's Hair Potion (Elixir)</b><br>Total Uses: 5<br>Most Used In: Goblet of Fire (4x)"
+      },
+      {
+        "id": "m_Doxycide",
+        "label": "Doxycide",
+        "group": "elixir",
+        "value": 12,
+        "title": "<b>Doxycide (Elixir)</b><br>Total Uses: 6<br>Most Used In: Order of the Phoenix (6x)"
+      },
+      {
+        "id": "m_Mrs_Skower's_All-Purpose_Magical_Mess_Remover",
+        "label": "Mrs Skower's All-Purpose Magical Mess Remover",
+        "group": "elixir",
+        "value": 12,
+        "title": "<b>Mrs Skower's All-Purpose Magical Mess Remover (Elixir)</b><br>Total Uses: 6<br>Most Used In: Chamber of Secrets (4x)"
+      },
+      {
+        "id": "m_Dr_Ubbly's_Oblivious_Unction",
+        "label": "Dr Ubbly's Oblivious Unction",
+        "group": "elixir",
+        "value": 12,
+        "title": "<b>Dr Ubbly's Oblivious Unction (Elixir)</b><br>Total Uses: 3<br>Most Used In: Order of the Phoenix (3x)"
+      },
+      {
+        "id": "m_Beautification_Potion",
+        "label": "Beautification Potion",
+        "group": "elixir",
+        "value": 12,
+        "title": "<b>Beautification Potion (Elixir)</b><br>Total Uses: 4<br>Most Used In: Goblet of Fire (3x)"
+      }
+    ],
+    "edges": [
+      {
+        "from": "w_0",
+        "to": "m_Expelliarmus",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_2",
+        "to": "m_Expelliarmus",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_6",
+        "to": "m_Expelliarmus",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Expecto_Patronum",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_6",
+        "to": "m_Expecto_Patronum",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_2",
+        "to": "m_Expecto_Patronum",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_1",
+        "to": "m_Expecto_Patronum",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_4",
+        "to": "m_Expecto_Patronum",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_5",
+        "to": "m_Avada_Kedavra",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_2",
+        "to": "m_Avada_Kedavra",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_8",
+        "to": "m_Avada_Kedavra",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_5",
+        "to": "m_Crucio",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_8",
+        "to": "m_Crucio",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Crucio",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_5",
+        "to": "m_Imperio",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Imperio",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_7",
+        "to": "m_Imperio",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Stupefy",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_1",
+        "to": "m_Stupefy",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_2",
+        "to": "m_Stupefy",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Lumos",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_3",
+        "to": "m_Lumos",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_1",
+        "to": "m_Lumos",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_9",
+        "to": "m_Lumos",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_4",
+        "to": "m_Lumos",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_2",
+        "to": "m_Sectumsempra",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Sectumsempra",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_2",
+        "to": "m_Levicorpus",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Levicorpus",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_1",
+        "to": "m_Levicorpus",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_5",
+        "to": "m_Morsmordre",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_2",
+        "to": "m_Muffliato",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Muffliato",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_1",
+        "to": "m_Muffliato",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Accio",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_1",
+        "to": "m_Accio",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_3",
+        "to": "m_Accio",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_1",
+        "to": "m_Alohomora",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Alohomora",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_3",
+        "to": "m_Wingardium_Leviosa",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_1",
+        "to": "m_Wingardium_Leviosa",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Wingardium_Leviosa",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_14",
+        "to": "m_Obliviate",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_1",
+        "to": "m_Obliviate",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_14",
+        "to": "m_Peskipiksi_Pesternomi",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_1",
+        "to": "m_Petrificus_Totalus",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Petrificus_Totalus",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_7",
+        "to": "m_Petrificus_Totalus",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_6",
+        "to": "m_Riddikulus",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Riddikulus",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_3",
+        "to": "m_Riddikulus",
+        "arrows": "to",
+        "label": "casts",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Polyjuice_Potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_1",
+        "to": "m_Polyjuice_Potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_3",
+        "to": "m_Polyjuice_Potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_7",
+        "to": "m_Polyjuice_Potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_10",
+        "to": "m_Felix_Felicis",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Felix_Felicis",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_3",
+        "to": "m_Felix_Felicis",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_1",
+        "to": "m_Felix_Felicis",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_15",
+        "to": "m_Wolfsbane_Potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_6",
+        "to": "m_Wolfsbane_Potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_2",
+        "to": "m_Wolfsbane_Potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_18",
+        "to": "m_Skele-Gro",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Skele-Gro",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_2",
+        "to": "m_Veritaserum",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_4",
+        "to": "m_Veritaserum",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_11",
+        "to": "m_Love_potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_12",
+        "to": "m_Love_potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_13",
+        "to": "m_Love_potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_3",
+        "to": "m_Love_potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_16",
+        "to": "m_Elixir_of_Life",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_5",
+        "to": "m_Elixir_of_Life",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_5",
+        "to": "m_Emerald_Potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_4",
+        "to": "m_Emerald_Potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Draught_of_Living_Death",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_2",
+        "to": "m_Draught_of_Living_Death",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_17",
+        "to": "m_Pepperup_Potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_20",
+        "to": "m_Sleekeazy's_Hair_Potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_1",
+        "to": "m_Sleekeazy's_Hair_Potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_10",
+        "to": "m_Doxycide",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_11",
+        "to": "m_Doxycide",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_12",
+        "to": "m_Doxycide",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_0",
+        "to": "m_Doxycide",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_19",
+        "to": "m_Mrs_Skower's_All-Purpose_Magical_Mess_Remover",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_22",
+        "to": "m_Dr_Ubbly's_Oblivious_Unction",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_3",
+        "to": "m_Dr_Ubbly's_Oblivious_Unction",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_21",
+        "to": "m_Beautification_Potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      },
+      {
+        "from": "w_10",
+        "to": "m_Beautification_Potion",
+        "arrows": "to",
+        "label": "uses/brews",
+        "font": {
+          "size": 10,
+          "color": "#94A3B8"
+        },
+        "color": {
+          "color": "#475569",
+          "highlight": "#F59E0B"
+        }
+      }
+    ]
+  }
+}
